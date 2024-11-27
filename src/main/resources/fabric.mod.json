@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "scrollstateretainer",
+	"version": "${version}",
+	"name": "ScrollState Retainer",
+	"description": "Restore scroll states after closing a confirm screen.",
+	"authors": [
+		"LitnhJacuzzi"
+	],
+	"contact": {
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "GPL 3.0",
+	"icon": "assets/scrollstateretainer/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"org.litnhjacuzzi.scrollstateretainer.ScrollStateRetainer"
+		]
+	},
+	"mixins": [
+		"scrollstateretainer.mixins.json"
+	],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": ">=1.18",
+		"java": ">=17"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

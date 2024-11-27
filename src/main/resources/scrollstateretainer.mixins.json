@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "org.litnhjacuzzi.scrollstateretainer.mixin",
+	"mixins": [
+		"ChatHudMixin",
+		"MinecraftClientMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
