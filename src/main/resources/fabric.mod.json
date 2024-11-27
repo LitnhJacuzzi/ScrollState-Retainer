@@ -8,10 +8,9 @@
 		"LitnhJacuzzi"
 	],
 	"contact": {
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/LitnhJacuzzi/ScrollState-Retainer"
 	},
 	"license": "GPL 3.0",
-	"icon": "assets/scrollstateretainer/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"client": [
